@@ -317,27 +317,27 @@ class ImgHandler(tornado.web.RequestHandler):
         # Ensure that this is one of the allowed choices, or allow all
         # If they don't set one, take the first entry from sets above.
 
-        if args.get('set',r.sets[0]) in r.sets:
-            roboset = args.get('set',r.sets[0])
-        elif args.get('set',r.sets[0]) == 'any':
-            # Add ugly hack.
-            # Adding cats, per issue-17, but I don't want to change existing hashes.
-            # so we'll ignore that set for the 'any' config.
-
-            roboset = r.sets[r.hasharray[1] % (len(r.sets)-1) ]
-        else:
-            roboset = r.sets[0]
-
-        # If they specified multiple sets, use up a bit of randomness to choose one.
-        # If they didn't specify one, default to whatever we decided above.
-
-        possiblesets = []
-        for tmpset in args.get('sets',roboset).split(','):
-            if tmpset in r.sets:
-                possiblesets.append(tmpset)
-        if possiblesets:
-            roboset = possiblesets[r.hasharray[1] % len(possiblesets) ]
-
+        # if args.get('set',r.sets[0]) in r.sets:
+        #     roboset = args.get('set',r.sets[0])
+        # elif args.get('set',r.sets[0]) == 'any':
+        #     # Add ugly hack.
+        #     # Adding cats, per issue-17, but I don't want to change existing hashes.
+        #     # so we'll ignore that set for the 'any' config.
+        #
+        # #     roboset = r.sets[r.hasharray[1] % (len(r.sets)-1) ]
+        # # else:
+        # #     roboset = r.sets[0]
+        #
+        # # If they specified multiple sets, use up a bit of randomness to choose one.
+        # # If they didn't specify one, default to whatever we decided above.
+        #
+        # possiblesets = []
+        # for tmpset in args.get('sets',roboset).split(','):
+        #     if tmpset in r.sets:
+        #         possiblesets.append(tmpset)
+        # if possiblesets:
+        #     roboset = possiblesets[r.hasharray[1] % len(possiblesets) ]
+        roboset = 'set2'
 
         # Only set1 is setup to be color-seletable. The others don't have enough pieces in various colors.
         # This could/should probably be expanded at some point..

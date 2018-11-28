@@ -3,6 +3,7 @@ import os
 import hashlib
 from PIL import Image
 import natsort
+import random
 
 class Robohash(object):
     """
@@ -171,12 +172,14 @@ class Robohash(object):
                 background = bglist[self.hasharray[3] % len(bglist)]
 
         # Paste in each piece of the Robot.
-        roboimg = Image.open(roboparts[0])
-        roboimg = roboimg.resize((1024,1024))
+        roboimg = Image.open(roboparts[0]).convert("RGBA")
+        roboimg = roboimg.resize((256,256))
+        imgcnt = 0
         for png in roboparts:
-                img = Image.open(png)
-                img = img.resize((1024,1024))
-                roboimg.paste(img,(0,0),img)
+                img = Image.open(png).convert("RGBA")
+                img = img.resize((256,256))
+                roboimg.paste(img,(imgcnt%self.hasharray[3],imgcnt%self.hasharray[2]),img)
+                imgcnt += 1
 
         # If we're a BMP, flatten the image.
         if format == 'bmp':
@@ -192,4 +195,3 @@ class Robohash(object):
 
         self.img = roboimg.resize((sizex,sizey),Image.ANTIALIAS)
         self.format = format
-
