@@ -83,7 +83,7 @@ class Robohash(object):
         Continue to increase self.iter, so we use a different 'slot' of randomness each time.
         """
         chosen_files = []
-
+        print(path)
         # Get a list of all subdirectories
         directories = []
         for root, dirs, files in natsort.natsorted(os.walk(path, topdown=False)):
@@ -101,6 +101,9 @@ class Robohash(object):
                 files_in_dir = natsort.natsorted(files_in_dir)
 
             # Use some of our hash bits to choose which file
+            print(files_in_dir)
+            if len(files_in_dir)==0:
+                print("xx")
             element_in_list = self.hasharray[self.iter] % len(files_in_dir)
             chosen_files.append(files_in_dir[element_in_list])
             self.iter += 1
@@ -173,12 +176,12 @@ class Robohash(object):
 
         # Paste in each piece of the Robot.
         roboimg = Image.open(roboparts[0]).convert("RGBA")
-        roboimg = roboimg.resize((256,256))
-        imgcnt = 0
+        roboimg = roboimg.resize((128,128))
+        imgcnt = 1
         for png in roboparts:
                 img = Image.open(png).convert("RGBA")
-                img = img.resize((256,256))
-                roboimg.paste(img,(imgcnt%self.hasharray[3],imgcnt%self.hasharray[2]),img)
+                img = img.resize((128,128))
+                roboimg.paste(img,(0,0),img)
                 imgcnt += 1
 
         # If we're a BMP, flatten the image.
