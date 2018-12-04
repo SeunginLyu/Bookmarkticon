@@ -4,7 +4,10 @@ from lxml.cssselect import CSSSelector
 import requests
 import urllib
 import favicon
+import random
+import hashlib
 import os
+from PIL import Image
 
 class BookmarksLoader():
     def __init__(self):
@@ -48,16 +51,40 @@ class BookmarksLoader():
 
     def create_bookmarkticon(self):
         files = os.listdir(self.filename)
+        filtered = []
         for file in files:
             if file.endswith(".png") or file.endswith(".ico"):
-                
-        # img = Image.open("paddington.png")
-        # # Resize smoothly down to 64x64 pixels
-        # imgSmall = img.resize((64,64),resample=Image.BILINEAR)
-        # # Scale back up using NEAREST to original size
-        # result = imgSmall.resize(img.size, Image.NEAREST)
-        # # Save
-        # result.save(self.filename + '.png')
+                filtered.append(file)
+
+        # selects 40 images with fixed seed created via md5 hashing
+        a = hashlib.md5(self.filename.encode('utf-8'))
+        b = a.hexdigest()
+        seed = int(b, 16)
+        random.seed(seed)
+        imgs = random.sample(filtered, 64)
+
+        # paste 40 imgs together
+        res = Image.new("RGBA", (3200, 3200))
+        for index, path in enumerate(imgs):
+            complete_path = os.path.expanduser(self.filename + '/' + path)
+            try:
+                img = Image.open(complete_path).convert("RGBA").resize((400,400))
+            except:
+                img = Image.new("RGBA", (400,400))
+                print(complete_path)
+            x = index % 8 * 400
+            y = index // 8 * 400
+            w, h = img.size
+            res.paste(img, (x, y, x + w, y + h))
+        res.save(self.filename+'original.png')
+
+        # pixelate the favicon collage
+        imgSmall = res.resize((32,32),resample=Image.BILINEAR)
+        # Scale back up using NEAREST to original size
+        result = imgSmall.resize(res.size, Image.NEAREST)
+        # Save
+        result.save(self.filename + '.png')
+        print("image saved")
 
     def run(self):
         links = self.load_bookmarks()
