@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="/~static/images/favicon.ico" type="image/x-icon" />
+<title>CODEOK.NET</title>
+<link rel="stylesheet" type="text/css" href="/~static/themes/ecolemo/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="/~static/packages/font-awesome/css/font-awesome.min.css">
+<script type="text/javascript" src="/~static/packages/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="/~static/packages/bootstrap/dist/js/bootstrap.js"></script>
+
+
+<script type="text/javascript" src="/~static/packages/jquery-migrate/jquery-migrate.js"></script>
+<script type="text/javascript" src="/~static/wikieditor/jquery.autocomplete.js"></script>
+<link rel="stylesheet" type="text/css" href="/~static/wikieditor/jquery.autocomplete.css"></link>
+
+<link rel="stylesheet" type="text/css" href="/~static/style.css"/>
+<link rel="stylesheet" type="text/css" href="/~static/themes/ecolemo/theme.css"/>
+<script type="text/javascript" src="/~static/common.js"></script>
+<script type="text/javascript">
+	var pages = ['RecentChanges', 'TitleIndex', 'CODEOK', 'Help', '영록', '연구', '강좌', '다이제스트', '에세이', '서버 프로세스를 관리하는 올바른 방법', '패스워드 보안의 기술', '기사', '스타트업을 위한 기술 스택', 'API 설계하기', '코덕넷 소개']
+	$(document.body).ready(function() {
+	    $('.page-search').autocomplete(pages, {matchCase: false, matchContains: true})
+	    $('.page-search-button').click(function() {
+            if ($('.page-search').hasClass('search-popup')) {
+                $('.page-search').addClass('hidden-xs')
+                $('.page-search').removeClass('search-popup')
+            } else {
+                $('.page-search').addClass('search-popup')
+                $('.page-search').removeClass('hidden-xs')
+            }
+            return false
+        })
+    	$('#search-form').submit(function() {
+    	    this.action = '/' + $('#search-query').val()
+    	})
+	})
+</script>
+
+
+</head>
+<body class="springnote">
+
+
+
+<header class="container">
+    <div class="brand">
+        <span class="height-keeper">&nbsp;</span>
+        <a href="/" class="">CODEOK.NET</a>
+    </div>
+    <ul class="pull-right">
+        <li>
+            <form id="search-form" class="" role="search">
+              <div class="">
+                <input type="text" class="form-control page-search hidden-xs" id="search-query" placeholder="Go">
+                <a href="#" class="page-search-button btn btn-sm btn-default visible-xs"><i class="fa fa-search"></i></a>
+              </div>
+            </form>
+        </li>
+            <li><a href="/~accounts/login?next=http://www.codeok.net/favicon.ico">login</a></li>
+    </ul>
+</header>
+
+<nav class="navbar">
+    <ul class="container">
+            <li>
+                <a href="/연구">연구</a>
+            </li>
+            <li>
+                <a href="/다이제스트">다이제스트</a>
+            </li>
+            <li>
+                <a href="/강좌">강좌</a>
+            </li>
+            <li>
+                <a href="/에세이">에세이</a>
+            </li>
+    </ul>
+</nav>
+
+<div class="container">
+
+    
+
+    <header>
+        <h1>Not found : favicon.ico</h1>
+    </header>
+
+    <div class="alert alert-warning">
+        <p>Cannot find the page named <code>favicon.ico</code>. You may want to create new page, then press one of links below</p>
+    </div>
+    <div>
+        
+    
+    <ul>
+        <li><a class="" href="/favicon.ico?action=new">Create page: <strong class="text-success">favicon.ico</strong></a></li>
+    </ul>
+    </div>
+
+</div>
+
+<div class="container">
+    <div style="text-align: right; padding: 20px 0;">
+        Wiki at <a href="http://www.wikinamu.com"><img src="/~static/images/wikinamu.png">WikiNamu</a>
+    </div>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-27214070-2', 'auto');
+  ga('send', 'pageview');
+
+  ga('create', 'UA-36282606-5', 'auto', {'name': 'codeok'});
+  ga('codeok.send', 'pageview');
+
+</script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 코덕넷 광고 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9264573361248355"
+     data-ad-slot="1114389026"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<div class="dialogs">
+</div>
+
+
+
+
+</body>
+</html>

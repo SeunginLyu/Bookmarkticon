@@ -1,0 +1,621 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 9]>  <html class="ie"> <![endif]-->
+<!--[if gte IE 9]>  <html> <![endif]-->
+<!--[if !IE]><!-->        
+<html lang="ko" dir="ltr" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>:favicon.ico - 기술 - 오픈위키</title>
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+    <link href="/lib/tpl/kajukkk/bs/bootstrap.min.css" rel="stylesheet">
+    
+    <meta name="generator" content="DokuWiki"/>
+<meta name="robots" content="noindex,follow"/>
+<meta name="keywords" content="tech,favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="오픈위키"/>
+<link rel="start" href="/"/>
+<link rel="contents" href="/tech/favicon.ico?do=index" title="사이트맵"/>
+<link rel="manifest" href="/lib/exe/manifest.php"/>
+<link rel="alternate" type="application/rss+xml" title="최근 바뀜" href="/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="현재 이름공간" href="/feed.php?mode=list&amp;ns=tech"/>
+<link rel="edit" title="문서 편집" href="/tech/favicon.ico?do=edit"/>
+<link rel="alternate" type="text/html" title="일반 HTML" href="/_export/xhtml/tech/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="/lib/exe/css.php?t=kajukkk&amp;tseed=2c4b5c5ce4ef5f82b0336db566d09cf1"/>
+<link rel="stylesheet" type="text/css" href="/lib/plugins/codemirror/dist/styles.min.css?v=20170501"/>
+<!--[if gte IE 9]><!-->
+<script type="text/javascript">/*<![CDATA[*/var NS='tech';var JSINFO = {"act":"show","move_renameokay":false,"DOKU_URL":"https:\/\/openwiki.kr\/","key_show":86,"key_edit":69,"key_backlink":66,"key_revisions":73,"key_diff":68,"key_media":77,"key_index":0,"key_recent":79,"key_search":83,"key_home":72,"key_top":84,"key_save":81,"key_random":65,"key_nsrandom":78,"id":"tech:favicon.ico","namespace":"tech","ACT":"show","useHeadingNavigation":0,"useHeadingContent":1};
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/js.php?t=kajukkk&amp;tseed=2c4b5c5ce4ef5f82b0336db566d09cf1"></script>
+<script type="text/javascript">/*<![CDATA[*/JSINFO.plugin_codemirror = {"acronyms":["WYSIWYG","AFAICS","MathML","AFAIK","AFAIR","ASCII","ROTFL","IANAL","TL;DR","FLOSS","LGPL","IIRC","OTOH","PITA","IMHO","FOSS","RTFM","spec","MSIE","KISS","WTF?","ASAP","YMMV","HTML","MHz","ACL","OMG","OSS","RFC","TIA","TOC","URI","URL","W3C","LOL","IOW","LAN","FAQ","API","BTW","CMS","CSS","DNS","EOF","EOL","EOM","EOT","FTP","IRL","FUD","GHz","GPL","GUI","IMO","IRC","LMP","GB","OS","IE","MB"],"baseURL":"\/lib\/plugins\/codemirror","camelcase":false,"codesyntax":1,"entities":["<->","->","<-","<=>","=>","<=",">>","<<","---","--","(c)","(tm)","(r)","..."],"iconURL":"\/lib\/plugins\/codemirror\/settings.png","nativeeditor":1,"schemes":["http","https","telnet","gopher","wais","ftp","ed2k","irc","ldap"],"smileys":["8-)","8-O","8-o",":-(",":-)","=)",":-\/",":-\\",":-?",":-D",":-P",":-o",":-O",":-x",":-X",":-|",";-)","m(","^_^",":?:",":!:","LOL","FIXME","DELETEME","SPOILER","ALERT","(*)","(19\uae08)","(19)","DONE","TODO","(\uace4\ub780)","(\uace8\ud504)","(\uacf5\ud3ec)","(\uad6c\ub984)","(\uad81\uae08)","(\uadf8\ub9cc)","(\uadfc\uc2ec)","(\uadfc\uc870)","(\uae5c\ucc0d)","(\uaf43)","(\ub180\ub78c)","(\ub18d\uad6c)","(\ub208)","(\ub208\ubb3c)","(\ub2f4\ubc30)","(\ub2f9\uad6c)","(\ub2f9\ud669)","(\ub3c8)","(\ub538\uae30)","(\ub540)","(\ub625)","(\ub9e5\uc8fc)","(\uba54\ub871)","(\ubbf8\uc18c)","(\ubbfc\ub9dd)","(\ubc18\ud568)","(\ubc25)","(\ubc29\uae0b)","(\ubc84\ub7ed)","(\ubcc4)","(\ubd80\ub044)","(\ube0c\uc774)","(\ube44)","(\uc090\uc9d0)","(\uc120\ubb3c)","(\uc18c\uc8fc)","(\uc2e4\uc5f0)","(\uc369\uc18c)","(\uc544\ud514)","(\uc545\ub9c8)","(\uc548\ub3c4)","(\uc54c\uc57d)","(\uc57c\uad6c)","(\uc57c\uc639)","(\uc57c\ud638)","(\uc624\ucf00\uc774","(\uc640\uc778)","(\uc678\uacc4\uc778","(\uc6b0\uc6e9)","(\uc719\ud06c)","(\uc73c\uc73c)","(\uc74c\ud45c)","(\uc785\uc220)","(\uc798\ub09c\ucc99","(\uc798\uc790)","(\uc7a0)","(\uc804\ud654)","(\uc808\uaddc)","(\uc88c\uc808)","(\uccc7)","(\ucd1b\ubd88)","(\ucd1d)","(\ucd5c\uace0)","(\ucd5c\uc545)","(\ucd95\uad6c)","(\ucd95\ud558)","(\uce58\ud0a8)","(\ucee4\ud53c)","(\ucef5\ucf00\uc775)","(\ucef5\ucf00\uc7752)","(\ucf00\uc775)","(\ud06c\ud06c)","(\ud2b8\ub9ac)","(\ud48d\uc120\uaecc","(\ud558\ud2b8)","(\ud574)","(\ud589\ubcf5)","(\ud5e4\ub871)","(\ud638\ubc15)","(\ud761\uc871)","(a)","(b)","(back)","(down)","(lb)","(left)","(ls)","(lt)","(rb)","(right)","(rs)","(rt)","(start)","(up)","(x)","(Y)"],"version":"20170501","usenativescroll":"0","autoheight":"0"}
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="/lib/plugins/codemirror/dist/scripts.min.js?v=20170501"></script>
+<!--<![endif]-->
+    <meta name="description" content="" >
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">-->
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/v4-shims.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/lib/tpl/kajukkk/images/favicon.ico" />
+<link rel="apple-touch-icon" href="/_media/apple-touch-icon.png" />
+    
+<style>
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+</style>    <script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-16671750-1', 'auto');  ga('send', 'pageview');</script>    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- <script src="/lib/tpl/kajukkk/js/respond.min.js" type="text/javascript"></script>-->
+    <!--[if lt IE 9]>
+      <script src="/lib/tpl/kajukkk/js/html5shiv.js" type="text/javascript"></script>
+          <![endif]-->
+       
+<!-- <script async src="//developers.kakao.com/sdk/js/kakao.min.js"></script> -->
+
+     
+    
+  
+    <!-------------------------------자동 광고 -------------------------------->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-2592234474265189",
+          enable_page_level_ads: true
+     });
+</script>
+<!-------------------------------/자동 광고 --------------------------------> 
+</head>
+<body class="" >
+<div class="dokuwiki clearfix ">
+    <div id="sidebar_bg"></div>
+    <div id="nav_bg"></div>
+  	<nav id="dokuwiki__nav">
+    <!-- Nav page start-->
+       	     
+             
+<p>
+<a href="/about" class="wikilink1" title="about">오픈위키?</a>|<span class="curid"><a href="/home" class="wikilink1" title="home">홈</a></span>|<a href="/%EB%AC%B8%EC%84%9C%EA%B4%80%EB%A6%AC%EA%B8%B0%EC%A4%80" class="wikilink1" title="문서관리기준">지침</a>
+</p>
+
+<p>
+<i class="fa fa-gamepad text-muted"></i> <a href="/game/home" class="wikilink1" title="game:home">게임</a> <i class="fa fa-tv text-muted"></i> <a href="/tech/home" class="wikilink1" title="tech:home">컴퓨터</a> <i class="fa fa-medkit text-muted"></i> <a href="/med/home" class="wikilink1" title="med:home">의학</a>
+</p>
+<ul>
+<li class="level1"><div class="li"> <a href="/game/%EC%9C%84%EC%B3%90/home" class="wikilink1" title="game:위쳐:home">위쳐</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/game/gta/home" class="wikilink1" title="game:gta:home">큰차도둑</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/game/mc/home" class="wikilink1" title="game:mc:home">마인크래프트</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/game/tes5/home" class="wikilink1" title="game:tes5:home">스카이림</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/game/%ED%8F%B4%EC%95%84%EC%9B%83/home" class="wikilink1" title="game:폴아웃:home">폴아웃 4</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/game/f3/home" class="wikilink1" title="game:f3:home">폴아웃 3</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/game/fnv/home" class="wikilink1" title="game:fnv:home">폴아웃 뉴베가스</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/game/me/home" class="wikilink1" title="game:me:home">매스이펙트</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/game/r-type" class="wikilink1" title="game:r-type">알-타입 파이널</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/med/skin" class="wikilink1" title="med:skin">피부질환</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/med/toxicology" class="wikilink1" title="med:toxicology">독극물</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/med/%EC%A0%95%EC%8B%A0%EA%B3%BC%ED%95%99" class="wikilink1" title="med:정신과학">정신과학</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/med/%ED%94%BC%EC%9E%84" class="wikilink1" title="med:피임">피임</a> </div>
+</li>
+</ul>
+    <!-- Nav page end-->
+    </nav>
+    <div id="dokuwiki__top" class="mode_show  "  >
+
+        
+        <header class="titlebar nav-down clearfix">    
+            <div class="btn_left" href=""><i class="fa fa-bars"></i></div>
+			 
+            <div class="btn_right" href="" style=""><i class="fa fa-info-circle"></i></div>
+            <a class="btn_titlebar  pull-left"   href="https://openwiki.kr/">오픈위키</a>
+
+   
+
+			
+
+
+                                    <a class="btn_titlebar pull-right" href="/tech/" style="">
+				<i class="fa fa-mobile-alt phone"></i>
+				<i class="fa fa-tablet-alt tablet"></i>
+				<i class="fa fa-laptop desktop"></i>
+				<i class="fa fa-desktop wide"></i>
+			 </a>     
+            <a class="btn_titlebar pull-right" href="/med/" style=""><i class="fa fa-medkit"></i></a>           
+            <a class="btn_titlebar pull-right" href="/game/" style=""><i class="fa fa-gamepad"></i></a> 
+            						<form action="/home" method="get" role="search" class="search doku_form" id="dw__search" accept-charset="utf-8"><input type="hidden" name="do" value="search" /><input type="hidden" name="id" value="tech:favicon.ico" /><div class="no"><input name="q" type="text" class="edit" title="[F]" accesskey="f" placeholder="검색" autocomplete="on" id="qsearch__in" value="" /><button value="1" type="submit" title="검색">검색</button><div id="qsearch__out" class="ajax_qsearch JSpopup"></div></div></form>   
+						                 <a href="?do=randompage" class=" btn_titlebar " title="랜덤"><i class="fa fa-random"></i></a>      
+                    </header>  
+
+        <div class="core clearfix" >
+                
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- 반응형 --><ins class="adsbygoogle"     style="display:block"     data-ad-client="ca-pub-2592234474265189"     data-ad-slot="4485061703"     data-ad-format="auto"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        <div id="dokuwiki__content">
+            <ol class="breadcrumb text-capitalize hidden-xs"><li><i class="fa fa-book" aria-hidden="true"></i></li></ol>                       
+
+<div class="alert alert-info alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>너두 고쳐두 됩니다!            </strong>오른쪽의 단추를 눌러 <strong>문서를 편집</strong>할 수 있습니다.</div>
+   <a href="/tech/favicon.ico?do=edit" class="action_create editmain btn btn-danger pull-right  noprint " accesskey="e" rel="nofollow" title="문서 만들기 [E]"><div><i class="fa fa-pencil"></i></div><div>문서 만들기</div></a>      
+            <!-- wikipage start -->
+            
+<h1 class="sectionedit1" id="현재_페이지는_없습니다">현재 페이지는 없습니다</h1>
+<div class="level1">
+
+<p>
+현재 페이지는 존재하지 않습니다. 
+</p>
+
+<p>
+링크로 넘어온 것이라면 사용하고 있는 사이트나 페이지에 잘못된 링크(bad link)가 있는것입니다. 아니면 원래 있던 페이지가 다른 이름으로 바뀐 경우 이러한 문제가 발생할 수 있습니다..
+</p>
+<ol>
+<li class="level1"><div class="li"> <strong>생성</strong>: <span class="curid"><a href="/tech/favicon.ico?do=edit" class="wikilink2" title="tech:favicon.ico" rel="nofollow">여기를 눌러 새 문서를 만드세요.</a></span> (<span class="curid"><a href="/tech/favicon.ico?do=login" class="wikilink2" title="tech:favicon.ico" rel="nofollow">로그인</a></span>한 사용자만 가능합니다.)</div>
+</li>
+<li class="level1"><div class="li"> <strong>검색</strong>:  <span class="curid"><a href="/tech/favicon.ico?do=search" class="wikilink2" title="tech:favicon.ico" rel="nofollow">여기를 눌러 관련내용을 검색을 해볼 수 있습니다</a></span></div>
+</li>
+<li class="level1"><div class="li"> <strong>홈으로</strong>: <a href="/home" class="wikilink1" title="home">본 사이트</a>의 <a href="/home" class="wikilink1" title="home">메인</a>으로 가실 수도 있습니다.</div>
+</li>
+<li class="level1"><div class="li"> 아니면 아래의 링크를 이용해보세요.</div>
+</li>
+</ol>
+<div class="table sectionedit2"><table class="inline">
+	<tr class="row0">
+		<td class="col0"><a href="http://mine.vaslor.net/bb" class="urlextern" target="_blank" title="http://mine.vaslor.net/bb" rel="nofollow noopener">게시판</a>, <a href="/med/home" class="wikilink1" title="med:home">의학</a>, <a href="/med/skin" class="wikilink1" title="med:skin">피부질환</a>, <a href="/tech/home" class="wikilink1" title="tech:home">위키위키</a>, <a href="/tech/idioms" class="wikilink2" title="tech:idioms" rel="nofollow">고사성어</a>, <a href="/tech/freeware" class="wikilink2" title="tech:freeware" rel="nofollow">유용한 프로그램</a>,  <a href="/game/home" class="wikilink1" title="game:home">게임</a></td>
+	</tr>
+	<tr class="row1">
+		<td class="col0"><a href="/game/tes5/home" class="wikilink1" title="game:tes5:home">TES5: Skyrim</a>, <a href="/game/mc/home" class="wikilink1" title="game:mc:home">Minecraft</a>, <a href="/game/fallout/f1" class="wikilink2" title="game:fallout:f1" rel="nofollow">Fallout1</a>, <a href="/game/f2/home" class="wikilink1" title="game:f2:home">Fallout2</a>, <a href="/game/f3/home" class="wikilink1" title="game:f3:home">Fallout3</a>, <a href="/game/fnv/home" class="wikilink1" title="game:fnv:home">FNV</a>, <a href="/game/eve/home" class="wikilink1" title="game:eve:home">EVE</a>, <a href="/game/me/home" class="wikilink1" title="game:me:home">MassEffect</a></td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> <a href="/game/r-type" class="wikilink1" title="game:r-type">R-TYPE FINAL</a>, <a href="/game/ultima_6" class="wikilink1" title="game:ultima_6">Ultima 6</a>,   <a href="/game/dungeon_keeper_2" class="wikilink1" title="game:dungeon_keeper_2">Dungeon Keeper 2</a></td>
+	</tr>
+</table></div>
+
+
+
+</div>
+
+            
+            <!-- wikipage stop -->
+            <div class="clearer"></div>
+            <!-- Usage as a class -->
+
+                 
+        
+            
+                                              <!--          <div class="text-center noprint">
+                      <i class="fa fa-hand-o-right"></i> 
+                      <a href="#" class="btn-circle btn-primary slideTextUp" onclick="sendsns('facebook','','txt');return false;" title="페북펌"><div><i class="fa fa-facebook"></i></div><div>페북푸기</div></a>   
+                      <a href="#" class="btn-circle btn-info slideTextUp" onclick="sendsns('twitter','','   #오픈위키');return false;" title="트윗펌"><div><i class="fa fa-twitter"></i></div><div>트윗푸기</div></a>  
+                      
+                      <a href="#" class="btn-circle btn-warning slideTextUp" onclick="sendsns('kakaotalk','','   #오픈위키');return false;" title="카톡펌"><div>Kakao</div><div>카톡푸기</div></a>   
+                    <a href="#" class="btn-circle btn-success slideTextUp" onclick="sendsns('band','','   #오픈위키');return false;" title="밴드펌"><div>Band</div><div>밴드푸기</div></a>   
+                    <i class="fa fa-hand-o-left"></i>
+                    </div> -->
+                        
+
+
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- 반응형 --><ins class="adsbygoogle"     style="display:block"     data-ad-client="ca-pub-2592234474265189"     data-ad-slot="4485061703"     data-ad-format="auto"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>        
+                        <div class="noprint">
+                            </div>
+             
+
+            
+            <div class="license"><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license" target="_blank"><img src="/lib/images/license/badge/cc-by-nc-sa.png" alt="CC Attribution-Noncommercial-Share Alike 4.0 International" /></a> 별도로 명시하지 않을 경우, 이 위키의 내용은 다음 라이선스에 따라 사용할 수 있습니다: <bdi><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license" class="urlextern" target="_blank">CC Attribution-Noncommercial-Share Alike 4.0 International</a></bdi></div>   
+            <div class="docInfo text-muted">
+                                            
+
+            </div>
+                 
+
+             
+            <!-- ********** FOOTER ********** -->
+<div id="dokuwiki__footer"><div class="pad">
+          <div class="buttons text-center">
+         <a href="https://www.dokuwiki.org" title="Driven by DokuWiki" ><img
+            src="/lib/tpl/kajukkk/images/button-dokuwiki.png" width="80" height="15" alt="Driven by DokuWiki" /></a>    
+        <a href="//openwiki.kr/" target="openwiki" title="(C)OPENWIKI.KR All rights reserved"><img src="/lib/tpl/kajukkk/images/button-openwiki.png" height="15" width="80" alt="Openwiki.kr"></a>
+        <a href="//openwiki.kr/tech/kajukkk" target="kajukkk" title="DOKUWIKI TEMPLATE KAJUKKK"><img src="/lib/tpl/kajukkk/images/button-kajukkk.png" height="15" width="80" alt="Kajukkk template"></a>
+       <!--  <a href="//kr.dnsever.com" target="dnsever"><img src="/lib/tpl/kajukkk/images/button-dnsever.png" height="15" width="80" alt="DNS Powered by DNSEver.com"></a> -->
+               <!-- <a href="//openwiki.kr/donate" title="Donate" target="_blank"><img
+            src="/lib/tpl/kajukkk/images/button-donate.gif" width="80" height="15" alt="Donate" /></a>
+        <a href="//www.php.net" title="Powered by PHP" target="_blank"><img
+            src="/lib/tpl/kajukkk/images/button-php.gif" width="80" height="15" alt="Powered by PHP" /></a> -->
+       <!--  <a href="//validator.w3.org/check/referer" title="Valid HTML5" target="_blank"><img
+            src="/lib/tpl/kajukkk/images/button-html5.png" width="80" height="15" alt="Valid HTML5" /></a> -->
+        <!-- <a href="//jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS" target="_blank"><img
+            src="/lib/tpl/kajukkk/images/button-css.png" width="80" height="15" alt="Valid CSS" /></a>-->
+        <a href="//openwiki.kr/tech/nginx" title="Powered by Nginx" target="_blank"><img
+            src="/lib/tpl/kajukkk/images/button-nginx.png" width="80" height="15" alt="Powered by NginX" /></a>
+
+    </div>
+    </div></div><!-- /footer -->
+ 
+
+        
+    </div> <!-- dokuwiki__content -->
+                 <script id="dsq-count-scr" src="//vln.disqus.com/count.js" async></script>
+
+    <!-- ********** sidebar ********** -->
+      <aside><div id="dokuwiki__aside" class="lsb sidebar">
+        <a href="https://openwiki.kr/tech/home" ><div><img class="logo" src="/_media/tech/logo.jpg" alt="" ></div></a>     <div class="clearfix"></div>
+        <div class="text-center" ><a href="/tech/home"  accesskey="h" title="[H]">기술</a></div>		        <div class="tools text-center">
+                     
+            <a href="/tech/favicon.ico?do=revisions" class="action_revs btn-primary btn-circle slideTextUp" accesskey="o" rel="nofollow" title="이전 판 [O]"><div><i class="fa fa-history"></i></div><div>이전 판</div></a> 
+                            <a href="?do=randompage" class="btn-circle btn-success slideTextUp" title="랜덤"><div><i class="fa fa-random"></i></div><div>랜덤</div></a>      
+                        <a href="#" class="btn-circle btn-danger slideTextUp lightsaving" onclick="tpl_toggleLight();return false;" title="절약"><div><i class="fa fa-lightbulb-o"></i></div><div>절약</div></a>   
+            
+            <a href="/tech/favicon.ico?do=login&amp;sectok=" class="action_login btn-warning btn-circle slideTextUp" rel="nofollow" title="로긴"><div><i class="fa fa-sign-in"></i></div><div>로긴</div></a>          
+                		         
+            <a href="#" class="btn-circle btn-danger slideTextUp" data-target="#helpModal"  data-toggle="modal" title="도움말"><div><i class="fa fa-question"></i></div><div>도움말</div></a>
+         </div>                  
+
+        <div class="content">
+                    
+                        
+
+
+<h3 class="sectionedit1" id="최근_수정된_문서">최근 수정된 문서</h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"><a href="/tech/wget" class="wikilink1" title="tech:wget">wget</a> [옵션] </div>
+</li>
+<li class="level1"><div class="li"><a href="/tech/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4" class="wikilink1" title="tech:마크다운">마크다운</a> [관련자료] </div>
+</li>
+<li class="level1"><div class="li"><a href="/game/%ED%8F%B4%EC%95%84%EC%9B%83/%ED%8F%B4%EC%95%84%EC%9B%83_76" class="wikilink1" title="game:폴아웃:폴아웃_76">폴아웃_76</a> [권장사양] </div>
+</li>
+<li class="level1"><div class="li"><a href="/med/congenital_multiple_arthrogryposis" class="wikilink1" title="med:congenital_multiple_arthrogryposis">congenital_multiple_arthrogryposis</a> [진단] </div>
+</li>
+<li class="level1"><div class="li"><a href="/%EC%9E%90%EB%B0%95%EA%BC%BC" class="wikilink1" title="자박꼼">자박꼼</a> </div>
+</li>
+<li class="level1"><div class="li"><a href="/tech/c10k_problem" class="wikilink1" title="tech:c10k_problem">c10k_problem</a> </div>
+</li>
+<li class="level1"><div class="li"><a href="/tech/nvlddmkm" class="wikilink1" title="tech:nvlddmkm">nvlddmkm</a> [기타] </div>
+</li>
+<li class="level1"><div class="li"><a href="/user/keist99" class="wikilink1" title="user:keist99">keist99</a> </div>
+</li>
+<li class="level1"><div class="li"><a href="/med/endometrial_hyperplasia" class="wikilink1" title="med:endometrial_hyperplasia">endometrial_hyperplasia</a> [With atypia] </div>
+</li>
+<li class="level1"><div class="li"><a href="/med/%EC%A7%84%EB%A3%8C%EC%8B%A4_%EC%98%81%EC%96%B4" class="wikilink1" title="med:진료실_영어">진료실_영어</a> </div>
+</li>
+<li class="level1"><div class="li"><a href="/tech/mongodb" class="wikilink1" title="tech:mongodb">mongodb</a> </div>
+</li>
+<li class="level1"><div class="li"><a href="/tech/docker" class="wikilink1" title="tech:docker">docker</a> [레포지토리 설정] </div>
+</li>
+<li class="level1"><div class="li"><a href="/med/hepatitis_c" class="wikilink1" title="med:hepatitis_c">hepatitis_c</a> [임신] </div>
+</li>
+<li class="level1"><div class="li"><a href="/tech/onedrive" class="wikilink1" title="tech:onedrive">onedrive</a> </div>
+</li>
+<li class="level1"><div class="li"><a href="/tech/ubuntu_hardware_info" class="wikilink1" title="tech:ubuntu_hardware_info">ubuntu_hardware_info</a> [랜카드 설정정보] </div>
+</li>
+<li class="level1"><div class="li"><a href="/status" class="wikilink2" title="status" rel="nofollow">status</a> 제거됨</div>
+</li>
+<li class="level1"><div class="li"><a href="/tech/webmin" class="wikilink1" title="tech:webmin">webmin</a> [웹민 (Webmin)] </div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\ucd5c\uadfc \uc218\uc815\ub41c \ubb38\uc11c&quot;,&quot;hid&quot;:&quot;\ucd5c\uadfc_\uc218\uc815\ub41c_\ubb38\uc11c&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;403-&quot;} -->            <!--  <div id="recentcomments" class="level2 wrap_disqus_wrap plugin_wrap" style="">
+      <h3>최근 댓글</h3>
+      <script type="text/javascript" src=" //vln.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=0&avatar_size=24&excerpt_length=30"></script>
+      <span class='small text-muted text-center'>Powered by <a href="//disqus.com">Disqus</a></span>
+  </div> -->        </div>
+    </div> </aside>
+                   </div> <!-- core -->
+	</div></div><!-- /.dokuwiki -->
+
+<aside>
+<!-- Modal -->
+<div class="modal fade noprint" id="helpModal" tabindex="-1" role="dialog" aria-labelledby="helpModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="helpModalLabel">도움말</h4>
+        
+        
+      </div>
+      <div class="modal-body">
+       
+<h1 class="sectionedit1" id="오픈위키_간단_사용법">오픈위키 간단 사용법</h1>
+<div class="level1">
+
+<p>
+<strong>위키위키</strong>는 많은 분들이 쉽게 참여할 수 있고, 자유로운 업데이트, 한눈에 알아보기 쉬운 정리가 가능하다는 <strong>장점</strong>이 있다.
+위키는 여러 사람이 함께 같이 수정하면서 문서를 만들어 나가는 것이다. 수정하여도 이전의 내용이 그대로 보존 되므로, 실수의 두려움을 가질 필요가 없다. 잘못해도 <del>언젠가는</del> 다른 사람이 수정해 줄 것이다. 마음을 편하게 갖고 <code>해보라</code>.
+</p>
+
+<p>
+<a href="/%EC%97%B0%EC%8A%B5%EC%9E%A5" class="wikilink1" title="연습장">연습장</a>에서 연습을 좀 해봐도 된다.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\uc624\ud508\uc704\ud0a4 \uac04\ub2e8 \uc0ac\uc6a9\ubc95&quot;,&quot;hid&quot;:&quot;\uc624\ud508\uc704\ud0a4_\uac04\ub2e8_\uc0ac\uc6a9\ubc95&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-609&quot;} -->
+<h2 class="sectionedit2" id="단축키">단축키</h2>
+<div class="level2">
+
+<p>
+이것은
+도쿠위키 것은 아니고 오픈위키에서만 된다. <a href="/tech/dokuwiki_shortcut" class="wikilink1" title="tech:dokuwiki_shortcut">도쿠위키에 모인모인 형식의 단축키 넣기</a> 참조.
+</p>
+
+<p>
+구글크롬, 사파리에서… 잘 된다.
+</p>
+<div class="table sectionedit3"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> </th><th class="col1 centeralign">  행위  </th><th class="col2 centeralign">  뭐?  </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0 centeralign">  H  </td><td class="col1 centeralign">  홈  </td><td class="col2"> 위키대문으로 간다.. </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0 centeralign">  A  </td><td class="col1 centeralign">  랜덤  </td><td class="col2"> 무작위로 현재 네임스페이스의 페이지 중 무작위로 이동. </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0 centeralign">  V  </td><td class="col1 centeralign">  보기   </td><td class="col2"> &quot;Show time!!&quot; </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0 centeralign">  M  </td><td class="col1 centeralign">  파일   </td><td class="col2"> 사진, 압축파일 등 파일 올리기/보기 </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0 centeralign">  T  </td><td class="col1 centeralign">  맨위로  </td><td class="col2"> 페이지 최상단으로 이동 </td>
+	</tr>
+	<tr class="row6">
+		<td class="col0 centeralign">  D  </td><td class="col1 centeralign">  최근차이  </td><td class="col2"> 이전 내용과 다른점 보기 </td>
+	</tr>
+	<tr class="row7">
+		<td class="col0 centeralign">  R  </td><td class="col1 centeralign">  최근변경  </td><td class="col2"> 현재 네임스페이스에서 바뀐 것들 보기 </td>
+	</tr>
+	<tr class="row8">
+		<td class="col0 centeralign">  E,W  </td><td class="col1 centeralign">  편집  </td><td class="col2"> 수정 </td>
+	</tr>
+	<tr class="row9">
+		<td class="col0 centeralign">  S,Q  </td><td class="col1 centeralign">  찾기  </td><td class="col2"> 검색창으로 커서 이동 </td>
+	</tr>
+	<tr class="row10">
+		<td class="col0 centeralign">  I,O  </td><td class="col1 centeralign">  변경  </td><td class="col2"> 변경 기록 보기 (역사; History) </td>
+	</tr>
+</table></div>
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table&quot;,&quot;secid&quot;:3,&quot;range&quot;:&quot;785-1402&quot;} -->
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\ub2e8\ucd95\ud0a4&quot;,&quot;hid&quot;:&quot;\ub2e8\ucd95\ud0a4&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;610-1406&quot;} -->
+<h1 class="sectionedit4" id="위키_기본_문법">위키 기본 문법</h1>
+<div class="level1">
+
+<p>
+위키는 별도의 문법이 있지만, 모든 것을 다 알아야 글을 쓸 수 있는 것은 아니며, 기본적인 텍스트 포맷, 표, 링크 정도만 알아도 충분히 활용할 수 있다.
+</p>
+
+<p>
+e
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\uc704\ud0a4 \uae30\ubcf8 \ubb38\ubc95&quot;,&quot;hid&quot;:&quot;\uc704\ud0a4_\uae30\ubcf8_\ubb38\ubc95&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;1407-1647&quot;} -->
+<h2 class="sectionedit5" id="간단_요약">간단 요약</h2>
+<div class="level2">
+
+<p>
+기본적으로는 그냥 글을 쓰면 된다. 몇 개의 기호들을 엮으면 다양한 효과를 낼 수 있다. 워드보다 편한다.
+</p>
+<ol>
+<li class="level1"><div class="li"> 굵은 글씨는 **를 두개씩 앞뒤로 쓰면 된다. 혹은 마우스로 잡은 뒤 <strong>B</strong> 아이콘을 누르면 된다. <br/>
+**굵은 글씨** → <strong>굵은 글씨</strong></div>
+</li>
+<li class="level1"><div class="li"> 같은 방법으로 __밑줄__ →    <em class="u">밑줄</em> ,  //이탤릭// → <em>이탤릭</em> 이런 식으로 할 수 있다.</div>
+</li>
+<li class="level1"><div class="li"> 큰 제목은 문장 맨 앞에 = 를 넣다. 중간 제목은 =====를 넣다. =====간단요약</div>
+</li>
+<li class="level1"><div class="li"> 목록은 문장 맨 앞에 * 를 넣고 한칸을 띄웁니다.</div>
+</li>
+<li class="level1"><div class="li"> 숫자 목록은 문장 맨 앞에 #을 넣고 한칸을 띄웁니다.</div>
+</li>
+<li class="level1"><div class="li"> 링크는 대괄호 두개로 둘러싸면 된다.. [[home]] (<a href="/syntax#링크_넣는_법" class="wikilink1" title="syntax">링크 넣는 법</a>참조)</div>
+</li>
+<li class="level1"><div class="li"> 외부사이트는 그냥 http로 시작하는 주소를 적으면 자동링크 된다. 혹은 [[https://naver.com]] –&gt; <a href="https://naver.com" class="urlextern" target="_blank" title="https://naver.com" rel="nofollow noopener">https://naver.com</a></div>
+</li>
+<li class="level1"><div class="li"> 그림을 올리려면 아이콘 중 액자 모양을 누르면 그림 올리는 창이 뜹니다. 그림을 올리고 클릭하면 자동으로 주소가 들어간다.</div>
+</li>
+<li class="level1"><div class="li"> 외부의 그림을 표시하려면 그냥 그림의 주소를 중간괄호 두개로 묶어준다.  </div>
+</li>
+<li class="level1"><div class="li"> 표는 각 칸 시작과 끝을 &#039;|&#039; 로 구별해 주면 된다. <br/>
+</div>
+</li>
+</ol>
+
+<p>
+      표안에 여러줄을 넣고 싶을 때에는  \\ 를 문장 중간에 넣으면 된다.(앞뒤 공백 필요)
+</p>
+
+<p>
+^ 제목칸 ^ 제목행 둘째칸 ^ 제목행 세째칸 | <br/>
+
+| 둘째행 첫칸 | 둘째행 둘째칸 | 둘째행 세째칸 \\ 둘째행 세째칸 두번째 줄 | 
+</p>
+<div class="table sectionedit6"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> 제목칸 </th><th class="col1"> 제목행 둘째칸 </th><th class="col2"> 제목행 세째칸 </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0"> 둘째행 첫칸 </td><td class="col1"> 둘째행 둘째칸 </td><td class="col2"> 둘째행 세째칸 <br/>
+둘째행 세째칸 두번째 줄 </td>
+	</tr>
+</table></div>
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table1&quot;,&quot;secid&quot;:6,&quot;range&quot;:&quot;3276-3435&quot;} -->
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\uac04\ub2e8 \uc694\uc57d&quot;,&quot;hid&quot;:&quot;\uac04\ub2e8_\uc694\uc57d&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:5,&quot;range&quot;:&quot;1648-3436&quot;} -->
+<h2 class="sectionedit7" id="링크_넣는_법">링크 넣는 법</h2>
+<div class="level2">
+
+<p>
+<strong>[[링크주소]]</strong>이 기본이다. <strong>[[링크주소|제목]]</strong>와 같이 제목을 넣을 수도 있다. 링크주소는 <strong>http://</strong> 로 시작하는 외부링크가 될 수도 있고, <strong>[[deathclaw]]</strong>같이 그냥 단어가 될 수도 있다. 다른 서브사이트의 문서를 참조할 때에는 콜론으로 구별한다.. 예) [[game:fallout:history]]
+</p>
+<pre class="code">[[http://fallout.wikia.com/wiki/|위키아]]
+[[http://fallout.wikia.com/wiki/|]]
+[[http://fallout.wikia.com/wiki/]]
+[[deathclaw|데쓰클로]]
+[[deathclaw|]]
+[[deathclaw]]
+[[game:fallout:history|역사]]</pre>
+
+<p>
+링크마다 제목을 적지 않아도 된다. 제목을 적지 않으면, 나중에 deathclaw 라는 이름의 문서를 만들고 첫 제목을 <strong>=데쓰클로 (Deathclaw)</strong> 이런식으로 하면 나중에 다른 문서의 <strong>[[deathclaw]] </strong>가 <strong>데쓰클로 (Deathclaw) </strong>이렇게 보이고 링크도 된다.
+</p>
+
+<p>
+이 정도만 알아도 된다. 흠
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\ub9c1\ud06c \ub123\ub294 \ubc95&quot;,&quot;hid&quot;:&quot;\ub9c1\ud06c_\ub123\ub294_\ubc95&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;3437-&quot;} --> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- NEW page Modal -->
+<div class="modal fade noprint" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content">
+      <div class="modal-header ">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">새 페이지 만들기!</h4>
+      </div>
+      <div class="modal-body">
+        <form class="uk-form-horizontal" action="/lib/tpl/kajukkk/newpage.php">
+          <input type="text" hidden name="DOKU_URL" value="https://openwiki.kr/">
+          <input type="text" hidden name="ns" value="tech">
+          <label class="label-control text-capitalize">페이지이름</label><br>
+          <input class="form-control" id="newpageid" name="title" type="text" required placeholder="페이지이름">      <br>
+          <label class="label-control text-capitalize">선택하세요</label><br>
+          
+         <!-- <code>이름공간:페이지이름</code> 형식으로 입력함으로써 새 페이지가 특정한 이름공간에 위치하도록 할 수 있습니다. 아니면, 아래의 단추에서 고르세요. -->
+          <div class="radio">
+            <label>
+              <input type="radio"  name="do" value="root"     >
+              <b>최상위(루트)</b>에 새 문서를 만듭니다. 
+                          </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="do" value="ns"  checked    >
+              현재 <b>tech</b>위치에 페이지 만들기            </label>
+          </div>
+                       <div class="radio">
+            <label>
+              <input type="radio" name="do" value="namu"      >
+              <b>나무위키</b>의 문서를 변환한 뒤 편집합니다. (CC BY-NC-SA 2.0 Kr)
+                          </label>
+          </div>        <!--
+           <div class="radio">
+            <label>
+              <input type="radio" name="do" value="enha"      >
+              <b>엔하위키미러</b>의 문서를 변환한 뒤 편집합니다. (CC BY-NC-SA 2.0 Kr)
+                          </label>
+          </div>-->
+                    <div class="btn-group pull-right ">
+            <input type="submit" class="btn btn-primary " value="문서 만들기">
+            <button type="button" class="btn btn-warning" data-dismiss="modal">취소</button>
+          </div>
+          <div class="clearfix"></div>
+          <input type="text" hidden name="back" value="tech:favicon.ico">
+        </form>
+  
+      </div>
+
+    </div>
+  </div>
+</div> <!--NEW page  Modal -->
+</aside> 
+    <script  src="/lib/tpl/kajukkk/bs/bootstrap.min.js" type="text/javascript"></script>
+<script>
+
+jQuery(document).ready(function()
+{
+	jQuery(".dokuwiki table").addClass( "table" );
+            //jQuery(".tags span a").addClass( "badge" );
+    jQuery(".dokuwiki .secedit button").addClass("btn btn-default btn-xs pull-right");
+     /*   [CSS+Javascript] 간단한 Back to top 버튼 넣기   */ 
+     jQuery('body').append('<div id="toTop"><i class="fa fa-angle-double-up fa-2x"></i></div>');
+     jQuery("#toTop").bind("click", function () {window.open('#dokuwiki__top','_self',false);});
+     //jQuery("#toTop").bind("click", function () {jQuery("body").animate({ scrollTop: 0 }, 200);});
+
+     jQuery(window).scroll(function () {
+		if (jQuery(this).scrollTop() > 100) {
+				jQuery('#toTop').fadeIn();
+			} else {
+				jQuery('#toTop').fadeOut();
+			}
+		});    /*   http://blog.readiz.com/134  */
+}); 
+
+
+// Hide Header on on scroll down
+// http://jsfiddle.net/s6mLJ/9063/
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = jQuery('header').outerHeight();
+
+jQuery(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
+function hasScrolled() {
+    var st = jQuery(this).scrollTop();
+    
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        jQuery('header').removeClass('nav-down').addClass('nav-up');
+    } else {
+        // Scroll Up
+        if(st + jQuery(window).height() < jQuery(document).height()) {
+            jQuery('header').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+    
+    lastScrollTop = st;
+}
+</script>
+ <!--<script async src="/lib/tpl/kajukkk/js/sendsns.js" type="text/javascript"></script>    -->
+    <div id="spot-im-root"></div>
+
+
+<div class="no"><img src="/lib/exe/indexer.php?id=tech%3Afavicon.ico&amp;1543893210" width="2" height="1" alt="" /></div>
+<div id="screen__mode" class="no"></div>  <p class='text-center small text-muted noprint'>0.008 seconds in processing this page on this powerful server.</p></body>
+</html>
