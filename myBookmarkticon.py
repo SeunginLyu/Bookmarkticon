@@ -6,6 +6,7 @@ import urllib
 import favicon
 import random
 import hashlib
+import time
 import os
 from PIL import Image
 
@@ -32,16 +33,19 @@ class BookmarksLoader():
 
     def download_favicons(self, links):
         # download all favicons from the links if they don't exist yet
+        timeout = 1
         if not os.path.exists(self.filename):
             os.makedirs(self.filename)
             for i, link in enumerate(links):
                 try:
                     icon = favicon.get(link)[0]
-                    response = requests.get(icon.url, stream=True)
+                    start = time.time()
+                    response = requests.get(icon.url, stream=True, timeout=1)
                     path = (self.filename+'/'+ str(i) +'.{}').format(icon.format)
                     print(path)
                     with open(path, 'wb') as image:
-                        for chunk in response.iter_content(1024):
+                        for i, chunk in enumerate(response.iter_content(1024)):
+                            print(i)
                             image.write(chunk)
                 except Exception as e:
                     print(link, e)
@@ -70,6 +74,7 @@ class BookmarksLoader():
             try:
                 img = Image.open(complete_path).convert("RGBA").resize((400,400))
             except:
+                # sometimes the images won't load properly, just create an empty place holder
                 img = Image.new("RGBA", (400,400))
                 print(complete_path)
             x = index % 8 * 400
